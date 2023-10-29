@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Филозопедиа | Почетна</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://via.placeholder.com/16x16"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/uikit.js"></script>
+  </head>
+
+  <body>
+    <header
+      class="uk-background-primary uk-background-norepeat uk-background-cover uk-background-center-center uk-light"
+      style="background-image: url(./images/main.jpg)"
+    >
+      <nav class="uk-navbar-container">
+        <div class="uk-container">
+          <div data-uk-navbar>
+            <div class="uk-navbar-left">
+              <a class="uk-navbar-item uk-logo uk-visible@m" href="index.html"
+                >Филозопедиа</a
+              >
+              <a
+                class="uk-navbar-toggle uk-hidden@m"
+                href="index.html"
+                data-uk-toggle
+              >
+                <span class="uk-navbar-item uk-logo">Филозопедиа</span></a
+              >
+            </div>
+            <div class="uk-navbar-right">
+              <ul class="uk-navbar-nav uk-visible@m">
+                <li class="uk-active"><a href="index.html">Почетна</a></li>
+                <li><a href="./pages/filozofija.html">Филозофија</a></li>
+                <li>
+                  <a href="./pages/sociologija.html">Социологија</a>
+                </li>
+                <li><a href="./pages/gradjansko.html">Грађанско</a></li>
+                <li><a href="./pages/pitanja.html">Питања</a></li>
+              </ul>
+              <a
+                class="uk-navbar-toggle uk-hidden@m"
+                href="#offcanvas"
+                data-uk-toggle
+                ><span data-uk-navbar-toggle-icon></span>
+                <span class="uk-margin-small-left">Мени</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div
+        class="uk-section uk-position-relative uk-position-z-index"
+        data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true"
+      >
+        <div class="uk-container">
+          <h1 class="uk-text-center uk-margin-remove-top">Филозопедиа</h1>
+          <div class="hero-search uk-margin-medium-top">
+            <form
+              class="uk-search uk-search-default uk-width-1-1"
+              name="search-hero"
+              onsubmit="return false;"
+            >
+              <span data-uk-search-icon="ratio: 1.2"></span>
+              <input
+                id="search-hero"
+                class="uk-search-input uk-form-large uk-border-rounded"
+                type="search"
+                placeholder="Претрага"
+                autocomplete="off"
+                data-minchars="1"
+                data-maxitems="30"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="uk-section uk-section-muted">
+      <div class="uk-container">
+        <div
+          class="uk-child-width-1-2@m uk-grid-match- uk-grid-small"
+          data-uk-grid
+        >
+          <div>
+            <div
+              class="uk-card uk-card uk-card-default uk-card-hover uk-card-body uk-inline uk-border-rounded"
+            >
+              <a class="uk-position-cover" href="./pages/filozofija.html"></a>
+              <div class="uk-grid-small" data-uk-grid>
+                <div
+                  class="uk-width-auto uk-text-primary uk-flex uk-flex-middle"
+                >
+                  <span data-uk-icon="icon: comments; ratio: 2.6"></span>
+                </div>
+                <div class="uk-width-expand">
+                  <h3 class="uk-card-title uk-margin-remove uk-text-primary">
+                    Филозофија
+                  </h3>
+                  <p class="uk-text-muted uk-margin-remove">
+                    Филозофија је наука која се бави најопштијим принципима ...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="uk-card uk-card uk-card-default uk-card-hover uk-card-body uk-inline uk-border-rounded"
+            >
+              <a class="uk-position-cover" href="./pages/sociologija.html"></a>
+              <div class="uk-grid-small" data-uk-grid>
+                <div
+                  class="uk-width-auto uk-text-primary uk-flex uk-flex-middle"
+                >
+                  <span data-uk-icon="icon: users; ratio: 2.6"></span>
+                </div>
+                <div class="uk-width-expand">
+                  <h3 class="uk-card-title uk-margin-remove uk-text-primary">
+                    Социологија
+                  </h3>
+                  <p class="uk-text-muted uk-margin-remove">
+                    Социологија је научна дисциплина која изучава друштвене ...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="uk-card uk-card uk-card-default uk-card-hover uk-card-body uk-inline uk-border-rounded"
+            >
+              <a class="uk-position-cover" href="./pages/gradjansko.html"></a>
+              <div class="uk-grid-small" data-uk-grid>
+                <div
+                  class="uk-width-auto uk-text-primary uk-flex uk-flex-middle"
+                >
+                  <span data-uk-icon="icon: copy; ratio: 2.6"></span>
+                </div>
+                <div class="uk-width-expand">
+                  <h3 class="uk-card-title uk-margin-remove uk-text-primary">
+                    Грађанско
+                  </h3>
+                  <p class="uk-text-muted uk-margin-remove">
+                    Грађанско образовање је предмет који се бави правима и
+                    одговорностима ...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="uk-card uk-card uk-card-default uk-card-hover uk-card-body uk-inline uk-border-rounded"
+            >
+              <a class="uk-position-cover" href="./pages/pitanja.html"></a>
+              <div class="uk-grid-small" data-uk-grid>
+                <div
+                  class="uk-width-auto uk-text-primary uk-flex uk-flex-middle"
+                >
+                  <span data-uk-icon="icon: file-text; ratio: 2.6"></span>
+                </div>
+                <div class="uk-width-expand">
+                  <h3 class="uk-card-title uk-margin-remove uk-text-primary">
+                    Питања
+                  </h3>
+                  <p class="uk-text-muted uk-margin-remove">
+                    Питања за одговарање за прво и друго полугодиште ...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+      <div class="uk-offcanvas-bar">
+        <a class="uk-logo" href="index.html">Филозопедиа</a>
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+        <ul
+          class="uk-nav uk-nav-primary uk-nav-offcanvas uk-margin-top uk-text-center"
+        >
+          <li class="uk-active"><a href="index.html">Почетна</a></li>
+          <li><a href="./pages/filozofija.html">Филозофија</a></li>
+          <li><a href="./pages/sociologija.html">Социологија</a></li>
+          <li><a href="./pages/gradjansko.html">Грађанско</a></li>
+          <li><a href="./pages/pitanja.html">Питања</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <footer class="uk-section uk-text-center uk-text-muted">
+      <div class="uk-container uk-container-small">
+        <div>
+          <ul class="uk-subnav uk-flex-center">
+            <li class="uk-active"><a href="index.html">Почетна</a></li>
+            <li><a href="./pages/filozofija.html">Филозофија</a></li>
+            <li><a href="./pages/sociologija.html">Социологија</a></li>
+            <li><a href="./pages/gradjansko.html">Грађанско</a></li>
+            <li><a href="./pages/pitanja.html">Питања</a></li>
+          </ul>
+        </div>
+        <div class="uk-margin-medium uk-text-small uk-link-muted">
+          <b>Е-Mail:</b>
+          <a href="mailto:sasa.labudovic@teslabg.edu.rs"
+            >sasa.labudovic@teslabg.edu.rs</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/awesomplete.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
